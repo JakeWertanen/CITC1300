@@ -1,6 +1,7 @@
-## CITC 1300 Project Page
+# citc_1300_upload
 
-<h1>Project List</h1>
+<h1>Basic Web projects</h1>
 
-<a href="project1/index.html" target="_blank">Project 1</a>
-
+<ul>
+    <li><a href="project2/index.html" target="_blank">Project 2</a></li>
+</ul>

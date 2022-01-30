@@ -1,0 +1,101 @@
+body {
+    background-color: #50B4FF;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#container {
+    background-color: #F3756A;
+    width: 800px;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #000;
+}
+
+header {
+    padding: 20px 0;
+    background-color: #C1EE92;
+    border-radius: 20px 20px 0 0;
+}
+
+header img {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #F3756A;
+    font-family: 'Supermercado One', cursive;
+    text-shadow: 2px 2px 2px #000;
+}
+
+nav {
+    background-color: #F3756A;
+    padding-top: 10px;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    background-color: #C1EE92;
+    height: 50px;
+    width: 175px;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 50px;
+    color:blueviolet;
+    text-decoration: none;
+    border-radius: 10px 10px 0 0;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    background-color: blueviolet;
+    color: #C1EE92;
+}
+
+main {
+    background-color: #C1EE92;
+    padding: 20px;
+    margin: 0 20px 20px 20px;
+}
+
+main h2 {
+    text-align: center;
+    color: blueviolet;
+    font-size: 2em;
+    font-family: 'Supermercado One', cursive;
+}
+
+main img {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    background-color: blueviolet;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #C1EE92;
+    padding: 60px 0;
+    color: #F3756A;
+    font-size: 1.5em;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+
+}
+
+.active {
+    background-color: blueviolet;
+    color: #C1EE92;
+}
+
+.pro_head {
+    text-align: center;
+    color: #F3756A;
+    font-size: 1.5em;
+    font-family: 'Supermercado One', cursive;
+}
