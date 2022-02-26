@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" href="CSS/normalize.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Supermercado+One&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+   
+<body>
+    
+    <div id="container">
+    <header>
+        <img src="images/runescape.png" alt="Runescape Logo">
+    </header>
+
+    <header>
+        <img src="images/demonicGorilla.png" alt="Demonic Gorilla">
+        <h1>Old School Runescape Guides</h1>
+    </header>
+
+    <nav>   
+            
+    <div class="buttons">
+        <audio id="heartbeat" src="https://css-tricks.com/examples/SoundOnHover/audio/beep.mp3" preload="auto"></audio>
+        <a class="buttons" href="index.html"><button id="play">Home</button></a>
+        <a href="creatures.html">Creatures</a>
+        <a href="loot.html">Loot</a>
+    </div>      
+    </nav>
+    <main>
+
+        <h2>Welcome to OSRS Guides</h2>
+        
+        <p>This website will help you prepare to face some of Runescape's most powerful creatures such as Demonic Gorillas and The Corrupted Hunllef.</p>
+        
+        <img src="images/greatOlm.png" alt="Great Olm home page image"><button onclick="myFunction()">Try it</button>
+    <div id="myDIV">
+        <p>Each guide will briefly go through the core mechanics of each fight and how to appropriately gear before going into the pvm (Player versus monster) encounters.</p>
+    </div>
+</main>
+
+<footer>&copy; 2022 OSRS Guides</footer>
+</div>
+<script>
+    function myFunction() {
+      var x = document.getElementById("myDIV");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+
+    var playBtn = document.getElementById('play'),
+  resetBtn = document.getElementById('reset'),
+  hearbeat = document.getElementById('heartbeat')
+	audios = document.querySelectorAll('audio');
+console.log(audios);
+
+
+playBtn.addEventListener('mouseover', function() {
+[].forEach.call(audios, function(audio) {
+  // do whatever
+  audio.play();
+});
+}, false);
+
+playBtn.addEventListener('mouseleave', function() {
+  heartbeat.pause();
+  heartbeat.currentTime = 0;
+}, false);
+
+resetBtn.addEventListener('mouseover', function() {
+    heartbeat.play();
+}, false);
+
+resetBtn.addEventListener('mouseleave', function() {
+  heartbeat.pause();
+  heartbeat.currentTime = 0;
+}, false);
+</script>
+</body>
+</html>

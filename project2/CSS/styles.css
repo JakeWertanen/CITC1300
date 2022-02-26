@@ -37,13 +37,12 @@ nav {
 
 nav a {
     display: inline-block;
-    background-color: #E2DBC8;
     height: 50px;
     width: 175px;
     font-size: 1.5em;
     font-weight: bold;
     line-height: 50px;
-    color: #bd1717;
+    color: #110202;
     text-decoration: none;
     border-radius: 10px 10px 0 0;
     margin: 0 10px;
