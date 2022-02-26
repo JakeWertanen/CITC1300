@@ -3,8 +3,6 @@ body {
     font-family: 'Bebas Neue', cursive;
 }
 
-/* Desktop View */
-
 /* This is the background layer */
 #container1 {
     background-color: black;
@@ -132,10 +130,6 @@ nav a:hover {
 }
 
 #myDIV15 {
-    display: none;
-}
-
-#myRank1 {
     display: none;
 }
 

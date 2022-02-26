@@ -67,7 +67,7 @@ footer {
     font-weight: bold;
     font-family: 'Supermercado One', cursive
 }
-
+/* Tablet View */
 @media(min-width: 768px) {
     #container {
         width: 90%;
